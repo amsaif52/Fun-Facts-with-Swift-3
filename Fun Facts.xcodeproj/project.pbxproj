@@ -12,6 +12,7 @@
 		866B58651E160A4100892AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B58631E160A4100892AFA /* Main.storyboard */; };
 		866B58671E160A4100892AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866B58661E160A4100892AFA /* Assets.xcassets */; };
 		866B586A1E160A4100892AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B58681E160A4100892AFA /* LaunchScreen.storyboard */; };
+		866B58721E161E3800892AFA /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866B58711E161E3800892AFA /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		866B58661E160A4100892AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866B58691E160A4100892AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866B586B1E160A4100892AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866B58711E161E3800892AFA /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		866B585E1E160A4100892AFA /* Fun Facts */ = {
 			isa = PBXGroup;
 			children = (
+				866B58711E161E3800892AFA /* FactProvider.swift */,
 				866B585F1E160A4100892AFA /* AppDelegate.swift */,
 				866B58611E160A4100892AFA /* ViewController.swift */,
 				866B58631E160A4100892AFA /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					866B585B1E160A4100892AFA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UDJZVQGEJ6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +142,7 @@
 			files = (
 				866B58621E160A4100892AFA /* ViewController.swift in Sources */,
 				866B58601E160A4100892AFA /* AppDelegate.swift in Sources */,
+				866B58721E161E3800892AFA /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDJZVQGEJ6;
 				INFOPLIST_FILE = "Fun Facts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amsaif52.Fun-Facts";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UDJZVQGEJ6;
 				INFOPLIST_FILE = "Fun Facts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amsaif52.Fun-Facts";
